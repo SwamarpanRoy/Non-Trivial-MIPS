@@ -8,12 +8,6 @@
 [![Verification](https://img.shields.io/badge/SVA-Formal%20Protocol%20Checkers-red.svg)](file:///Users/swamarpanroy/Downloads/nontrivial-mips/src/sva)
 [![Competition](https://img.shields.io/badge/NSCSCC%202019-First%20Prize-purple.svg)](file:///Users/swamarpanroy/Downloads/nontrivial-mips/report)
 
-**NonTrivial-MIPS** is an enterprise-grade, high-performance dual-issue superscalar 32-bit MIPS processor, complete System-on-Chip (SoC), and formal verification testbed implemented in synthesizable SystemVerilog. Originally designed by the Tsinghua University team *"Programming is a Dangerous Thing"* for the 3rd National College Student Computer System Capability Challenge (NSCSCC / Loongson Cup 2019, First Prize), the architecture incorporates an out-of-order execution model, a multi-tiered memory hierarchy, advanced clock domain crossing (CDC) synchronizers, AMBA AXI4/APB4 interconnects, and a formal SVA verification suite.
-
-The system is capable of running bare-metal firmware, **U-Boot**, **uCore-thumips**, and full-fledged **Linux 5.2.8** with graphics (Xorg), networking, USB peripherals, and userland runtimes (Python, GNU coreutils).
-
----
-
 ## Table of Contents
 
 - [Key Architecture Highlights](#key-architecture-highlights)
